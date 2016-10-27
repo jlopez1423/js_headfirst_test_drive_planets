@@ -4,8 +4,11 @@
 	<meta charset="utf-8">
 	<title>Planets</title>
 	<script>
+	function init(){
 		var planet 			= document.getElementById("greenplanet");
 		planet.innerHTML	= "Red Alert: hit by phaser fire!";
+	}
+	window.onload = init;
 	</script>
 </head>
 <body>
@@ -14,5 +17,4 @@
 <h1>Red Planet</h1>
 <p id="blueplanet"> All Systems A-OK</p>
 </body>
-
 </html>
